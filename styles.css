@@ -1,0 +1,141 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 700%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+  margin-bottom: 6em;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+#tareas{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tareas article{
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+#tareas article div:first-child{
+    width: 300%;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+  margin-right: 100px;
+}
+
+#actualizar {
+  display: none;
+}
+
+
+#h1 {
+  font-size: 50px;
+  color: white;
+  padding: 0cm;
+  background-color: black;
+  /*display: flex;
+  justify-content: center;*/
+}
+
+.boton2 {
+  display: inline-block;
+  padding: 8px 15px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #032258;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.boton2:hover {
+  background-color: #3e8e41
+}
+
+.boton2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#button2 {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #08034f;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+  position: relative;
+  top: -18px;
+}
+
+
+#button2:hover {
+  background-color: #79d313
+}
+
+#button2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+#button3 {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #08034f;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px #999;
+  position: relative;
+  top: -18px;
+
+}
+
+#button3:hover {
+  background-color: #f50808
+}
+
+#button3:active {
+  background-color: #f50505;
+  box-shadow: 0 1px #666;
+  
+}
